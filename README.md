@@ -1,1 +1,3 @@
-A
+Primeramente mi robot se basa en dos motores que hacen que valla hacia y adelante y una que hace el papel de volante qué hace mover la ruedas ya sea hacia la derecha o la izquierda, también un sensor de distancia a la izquierda y derecha y también un sensor óptical hacia el frente y hacia abajo 
+
+Hablando de la programación (qué aun sigo perfeccionado) donde establece la velocidad de los motores de conducción a 99% de velocidad, los sensores de discacia derecho y izquierdo están establecidos qué cuando detecten un objeto a menos de 100mm giren hacia el lado contrario, el óptical frontal está programado para que cuando detecte un color vaya de reversa y gire hacia el lado señalado por el color del obstáculo ya sea verde o rojo, y el óptical que de abajo para que detecte las líneas naranja y azul y gire hacia la derecha o izquierda dependiendo del sorteo que se haga el día de la competencia 
