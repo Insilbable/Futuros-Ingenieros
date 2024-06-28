@@ -18,7 +18,6 @@ Para alimentar todos los componentes electrónicos y mecánicos del RB20, hemos 
 
 En resumen, el prototipo RB20 de nuestro equipo Circuit Wizards no solo destaca por su capacidad de movimiento y maniobrabilidad, sino también por su avanzado sistema de detección y evasión de obstáculos. Estamos convencidos de que estas características innovadoras harán que nuestro robot sobresalga en las competencias regionales y demuestre el gran potencial de nuestra propuesta en el campo de la robótica. Hemos trabajado incansablemente para asegurarnos de que cada componente del RB20 funcione a la perfección y estamos orgullosos del resultado obtenido.
 
-Chao
 Puertos 
 
 MOTORES 12 y 1
@@ -38,6 +37,7 @@ Bachiller en ciencias
 Angelo Moya 10B 
 Bachiller en Agropecuaria 
 
+Chau
 
 
 
