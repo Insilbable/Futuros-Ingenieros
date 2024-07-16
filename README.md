@@ -28,9 +28,14 @@ COLOR ABAJO 4
 
 Gracias a todos los compañeros que me ayudaron con consejos en este proyecto (Grupo de robotica de 12° grado y mi tutor) 
 
+
+
 Créditos 
 
+
+
 Orbey Galeano 10F
+
 Bachiller en ciencias 
 
 Angelo Moya 10B 
