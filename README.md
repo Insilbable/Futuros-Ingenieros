@@ -20,10 +20,15 @@ En resumen, el robot apodado RB20 de nuestro equipo Circuit Wizards no destaca m
 Puertos 
 
 MOTORES 12 y 1
+
 DISTANCIA IZQUIERDO 3
+
 COLOR FRONTAL 5
+
 VOLANTE 6
+
 DISTACIA DERECHO 11
+
 COLOR ABAJO 4 
 
 Gracias a todos los compañeros que me ayudaron con consejos en este proyecto (Grupo de robotica de 12° grado y mi tutor) 
