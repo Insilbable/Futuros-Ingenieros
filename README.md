@@ -34,6 +34,7 @@ Orbey Galeano 10F
 Bachiller en ciencias 
 
 Angelo Moya 10B 
+
 Bachiller en Agropecuaria 
 
 Chau
