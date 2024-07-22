@@ -1,0 +1,70 @@
+int Brain_precision = 0, Console_precision = 0;
+
+float myVariable;
+
+// "when started" hat block
+int whenStarted1() {
+  while (true) {
+    OF.setLightPower(90.0, percent);
+    OA.setLightPower(100.0, percent);
+    Drivetrain.drive(forward);
+    Drivetrain.setDriveVelocity(109.0, percent);
+    if (OA.color() == orange) {
+      TouchLED11.setColor(orange);
+      Brain.Screen.setCursor(1, 1);
+      Brain.Screen.setFillColor(orange);
+      Brain.Screen.print("ANARANJADO");
+      VOLANTE.spinFor(reverse, 40.0, degrees, true);
+      wait(0.5, seconds);
+      VOLANTE.spinFor(forward, 40.0, degrees, true);
+      TouchLED11.setColor(colorType::none);
+    }
+    if (OA.color() == blue) {
+      TouchLED11.setColor(blue);
+      Brain.Screen.setCursor(1, 1);
+      Brain.Screen.setFillColor(blue);
+      Brain.Screen.print("AZUL");
+      VOLANTE.spinFor(reverse, 40.0, degrees, true);
+      wait(0.5, seconds);
+      VOLANTE.spinFor(forward, 40.0, degrees, true);
+      TouchLED11.setColor(colorType::none);
+    }
+    if (OF.color() == green) {
+      TouchLED11.setColor(green);
+      Brain.Screen.setCursor(1, 1);
+      Brain.Screen.setFillColor(green);
+      Brain.Screen.print("VERDE");
+      Drivetrain.stop();
+      wait(0.5, seconds);
+      Drivetrain.drive(reverse);
+      wait(0.8, seconds);
+      Drivetrain.drive(forward);
+      VOLANTE.spinFor(forward, 40.0, degrees, true);
+      wait(0.5, seconds);
+      VOLANTE.spinFor(reverse, 40.0, degrees, true);
+      TouchLED11.setColor(colorType::none);
+      if (OF.color() == red) {
+        TouchLED11.setColor(red);
+        Brain.Screen.setCursor(1, 1);
+        Brain.Screen.setFillColor(red);
+        Brain.Screen.print("ROJO");
+        Drivetrain.stop();
+        wait(0.5, seconds);
+        Drivetrain.drive(reverse);
+        wait(0.8, seconds);
+        Drivetrain.drive(forward);
+        VOLANTE.spinFor(reverse, 40.0, degrees, true);
+        wait(0.5, seconds);
+        VOLANTE.spinFor(forward, 40.0, degrees, true);
+        TouchLED11.setColor(colorType::none);
+      }
+    }
+  wait(20, msec);
+  }
+  return 0;
+}
+
+
+int main() {
+  whenStarted1();
+}
